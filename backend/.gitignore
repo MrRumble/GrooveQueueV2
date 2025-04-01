@@ -1,0 +1,40 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.log
+*.pot
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Environment variable files
+.env
+
+# Firebase admin SDK credentials (never commit sensitive files)
+firebase-admin-sdk.json
+
+# FastAPI-specific
+*.db
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
+
+# Miscellaneous
+*.bak
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
